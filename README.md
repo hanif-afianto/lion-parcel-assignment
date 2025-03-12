@@ -55,7 +55,7 @@ Robot Framework automatically generates reports:
    ```
 
 ## Author
-[Your Name]
+[Hanif Afianto Dwi Nugroho]
 
 ## License
 This project is licensed under the MIT License.
