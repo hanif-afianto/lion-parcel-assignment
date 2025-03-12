@@ -1,0 +1,11 @@
+*** Variables ***
+${ORIGIN_ADDRESS_FIELD}       xpath=//android.widget.EditText[@resource-id='com.lionparcel.services.consumer:id/edtOriginAddress']
+${DESTINATION_ADDRESS_FIELD}  xpath=//android.widget.EditText[@resource-id='com.lionparcel.services.consumer:id/edtDestinationAddress']
+${CHECK_TARIF_BUTTON}         xpath=//android.widget.Button[@text='Cek Tarif']
+${REGULAR_SHIPPING}           xpath=//android.widget.TextView[@text='Pengiriman reguler']
+${ROUTE_SEARCH}               xpath=//android.widget.EditText[@resource-id='com.lionparcel.services.consumer:id/edtRouteSearch']
+${ORIGIN_ADDRESS_TEXT}        xpath=//android.widget.TextView[@resource-id = 'com.lionparcel.services.consumer:id/txtOriginRouteName']
+${DESTINATION_ADDRESS_TEXT}   xpath=//android.widget.TextView[@resource-id = 'com.lionparcel.services.consumer:id/txtCityRouteName']
+${TOTAL_WEIGHT}               xpath=//android.widget.EditText[@resource-id='com.lionparcel.services.consumer:id/edtTotalWeight']
+${REGULAR_ESTIMATED_PRICE}    xpath=//android.widget.TextView[@text='Pengiriman reguler']//following-sibling::android.widget.TextView[@resource-id='com.lionparcel.services.consumer:id/txtEstimatedPrice']
+${TOTAL_ESTIMATED_PRICE}      xpath=//android.widget.EditText[@resource-id='com.lionparcel.services.consumer:id/txtTotalTariffEstimation']
